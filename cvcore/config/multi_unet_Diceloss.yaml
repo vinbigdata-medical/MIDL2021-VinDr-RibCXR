@@ -1,0 +1,35 @@
+NAME: 'multi_unet_diceloss.yaml'
+
+
+
+DATA:
+  TYPE: "multilabel"
+  JSON:
+    TRAIN: "data/train/train_mask.json"
+    VAL: "data/val/val_mask.json"
+  INP_CHANNEL: 1
+
+MODEL:
+  NAME: "unet()"
+  CLS_HEAD: "linear"
+  NUM_CLASSES: 20
+
+LOSS:
+  NAME: "dice"
+METRIC:
+  NAME: "dice"
+SOLVER:  
+  ADAM_EPS: 1e-6
+  WARMUP_LENGTH: 5
+  GD_STEPS: 1
+  SCHEDULER: 'none'
+  MIN_LR: 1e-3
+  BASE_LR: 1e-3
+
+TRAIN:
+  BATCH_SIZE: 8
+  EPOCHES: [200]
+
+SYSTEM:
+  NUM_WORKERS: 8
+  SEED: 27
