@@ -5,8 +5,8 @@ NAME: 'multi_unet_b0_DiceLoss.yaml'
 DATA:
   TYPE: "multilabel"
   JSON:
-    TRAIN: "data/train/train_mask.json"
-    VAL: "data/val/val_mask.json"
+    TRAIN: "data/train/VinDr_VinCXR_train_mask.json"
+    VAL: "data/val/VinDr_VinCXR_val_mask.json"
 #  RANDAUG:
 #    N: 2
 #    M: 27
