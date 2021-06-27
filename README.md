@@ -27,6 +27,7 @@ Keywords: Rib segmentation, CXR, Benchmark dataset, Deep learning.
 }        
 ```
 - To view the label, you can go to() or use the notebook visualize.ipynb
+- For further description, please go to this (https://vindr.ai/datasets/ribcxr)
 
 # Model:
 In this work, we train 4 baselines model, that is vanila U-net and U-net, FPN and U-net plus plus with imagenet pretrained encoder efficientet B0 from (https://github.com/qubvel/segmentation_models.pytorch)
