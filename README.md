@@ -26,7 +26,7 @@ Keywords: Rib segmentation, CXR, Benchmark dataset, Deep learning.
     ....
 }        
 ```
-- To view the label, you can go to() or use the notebook visualize.ipynb
+- To view the label, you can go to vinlab (https://lab.vindr.ai) or use the notebook visualize.ipynb
 - For further description, please go to this (https://vindr.ai/datasets/ribcxr)
 
 # Model:
