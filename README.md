@@ -6,7 +6,7 @@ We introduce a new benchmark dataset, namely VinDr-RibCXR, for automatic segment
 Keywords: Rib segmentation, CXR, Benchmark dataset, Deep learning.
 
 # Data:
-- The dataset contains 245 images and split into 196 training images and 49 validation images. You can download the dataset at()
+- The dataset contains 245 images and split into 196 training images and 49 validation images. To download the VinDr-RibCXR dataset, please sign our [Data Use Agreement](https://drive.google.com/file/d/1Wr3iI7-OwZHD4eWtCALpRZKvhJuemKAs/view?fbclid=IwAR2lmFoe5JCqpkCVApIc_oXDnldJ21BGpib1PebC3GysrEkjfnqn-Wh2NE8) (DUA) and send the signed DUA to Hieu Pham (v.hieuph4@vinbigdata.org) for obtaining the downloadable link.
 - To record the label, we use json file, the json file have this format:
 ```
 {
@@ -57,3 +57,8 @@ python main.py --config/cvcore/multi_unet_b0_diceloss.yaml
 | U-Net w. EfficientNet-B0   | .829 (.808-.847) | 16.807 (14.372-19.539) | .844 (.818-.858) | .998 (.997-.998) |
 | FPN w. EfficientNet-B0     | .807 (.773-.824) | 15.049 (13.190-16.953) | .808 (.773-.828) | .997 (.997-.998) |
 | U-Net++ w. EfficientNet-B0 | .834 (.810-.853) | 15.453 (13.340-17.450) | .841 (.812-.858) | .998 (.997-.998) |
+
+# Acknowledgements:
+This research was supported by the Vingroup Big Data Institute. We are especially thankful
+to Tien D. Phan, Dung T. Le, and Chau T.B. Pham for their help during the data annotation
+process
