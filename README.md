@@ -6,7 +6,7 @@ We introduce a new benchmark dataset, namely VinDr-RibCXR, for automatic segment
 Keywords: Rib segmentation, CXR, Benchmark dataset, Deep learning.
 
 # Data:
-- The dataset contains 245 images and split into 196 training images and 49 validation images. To download the VinDr-RibCXR dataset, please sign our [Data Use Agreement](https://drive.google.com/file/d/1Wr3iI7-OwZHD4eWtCALpRZKvhJuemKAs/view?fbclid=IwAR2lmFoe5JCqpkCVApIc_oXDnldJ21BGpib1PebC3GysrEkjfnqn-Wh2NE8) (DUA) and send the signed DUA to Hieu Pham (v.hieuph4@vinbigdata.org) for obtaining the downloadable link.
+- The dataset contains 245 images and split into 196 training images and 49 validation images. To download the VinDr-RibCXR dataset, please sign our [Data Use Agreement](https://drive.google.com/file/d/1Wr3iI7-OwZHD4eWtCALpRZKvhJuemKAs/view?fbclid=IwAR2lmFoe5JCqpkCVApIc_oXDnldJ21BGpib1PebC3GysrEkjfnqn-Wh2NE8) (DUA) and send the signed DUA to Ha Nguyen (v.hanq3@vinbigdata.com) for obtaining the downloadable link.
 - To record the label, we use json file, the json file have this format:
 ```
 {
@@ -28,6 +28,8 @@ Keywords: Rib segmentation, CXR, Benchmark dataset, Deep learning.
 ```
 - To view the label, you can go to vinlab (https://lab.vindr.ai) or use the notebook visualize.ipynb
 - For further description, please go to this (https://vindr.ai/datasets/ribcxr)
+# Setting:
+We use Pytorch 1.7.1 for this project
 
 # Model:
 In this work, we train 4 baselines model, that is vanila U-net and U-net, FPN and U-net plus plus with imagenet pretrained encoder efficientet B0 from (https://github.com/qubvel/segmentation_models.pytorch)
