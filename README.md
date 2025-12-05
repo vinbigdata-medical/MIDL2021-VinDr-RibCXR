@@ -6,7 +6,7 @@ We introduce a new benchmark dataset, namely VinDr-RibCXR, for automatic segment
 Keywords: Rib segmentation, CXR, Benchmark dataset, Deep learning.
 
 # Data:
-- The dataset contains 245 images and split into 196 training images and 49 validation images. To download the VinDr-RibCXR dataset, please sign our [Data Use Agreement](https://drive.google.com/file/d/1Wr3iI7-OwZHD4eWtCALpRZKvhJuemKAs/view?fbclid=IwAR2lmFoe5JCqpkCVApIc_oXDnldJ21BGpib1PebC3GysrEkjfnqn-Wh2NE8) (DUA) and send the signed DUA to Ha Nguyen (v.hanq3@vinbigdata.com) for obtaining the downloadable link.
+- The dataset contains 245 images and split into 196 training images and 49 validation images. To download the VinDr-RibCXR dataset, please sign our [Data Use Agreement](https://drive.google.com/file/d/1Wr3iI7-OwZHD4eWtCALpRZKvhJuemKAs/view?fbclid=IwAR2lmFoe5JCqpkCVApIc_oXDnldJ21BGpib1PebC3GysrEkjfnqn-Wh2NE8) (DUA) and send the signed DUA to Ha Nguyen (nguyenquyha@gmail.com) for obtaining the downloadable link.
 - To record the label, we use json file, the json file have this format:
 ```
 {
